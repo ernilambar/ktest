@@ -1,3 +1,6 @@
 {
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "require": {
+    "kirki-framework/field-typography": "dev-master"
+  }
 }
