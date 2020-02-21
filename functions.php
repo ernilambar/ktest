@@ -7,6 +7,8 @@
  * @package Ktest
  */
 
+require_once get_parent_theme_file_path( 'vendor/autoload.php' );
+
 if ( ! function_exists( 'ktest_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -158,4 +160,3 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
