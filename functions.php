@@ -7,8 +7,6 @@
  * @package Ktest
  */
 
-require_once get_parent_theme_file_path( 'vendor/autoload.php' );
-
 if ( ! function_exists( 'ktest_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
